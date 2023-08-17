@@ -1,10 +1,9 @@
 import unittest
-
-from src.greedy import (coin_split,
-                        law_of_large_numbers, 
-                        count_with_three_in_time, 
-                        k_knight,
-                        find_prime)
+from src.greedy.coin_split import coin_split
+from src.greedy.count_with_three_in_time import count_with_three_in_time
+from src.greedy.find_prime import find_prime
+from src.greedy.k_knight import k_knight
+from src.greedy.law_of_large_numbers import law_of_large_numbers
 
 class TestGreedy(unittest.TestCase):
 

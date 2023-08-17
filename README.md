@@ -4,6 +4,12 @@
 
 ## 개발 환경
 
+### Java
+
+- `eclipse`를 사용해서 해당 프로젝트를 활용
+
+### Python
+
 ```bash
 $ python -m venv venv
 $ source venv/bin/activate # for mac
@@ -11,14 +17,19 @@ $ venv\Scripts\activate # for windows
 $ (venv) pip install -r requirements.txt
 $ (venv) python -m unittest
 ```
-## 초급 단계에서 풀지 않는 문제
+
+## 교재 관련
+
+### 초급 단계에서 풀지 않는 문제
+
 - p118, 게임 개발
   - 파이썬에 좀 더 익수해지면 풀어 볼 것
 
-## 남겨둔 문제
+### 남겨둔 문제
+
 - p96, p99
   - 2차 배열 문제
- 
+
 ## 내용 및 추가 문제(프로그래머스 기반)
 
 - 그리디(greedy)
