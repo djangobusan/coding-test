@@ -4,7 +4,7 @@ from src.greedy import (coin_split,
                         law_of_large_numbers, 
                         count_with_three_in_time, 
                         k_knight,
-                        find_prims)
+                        find_prime)
 
 class TestGreedy(unittest.TestCase):
 
@@ -24,5 +24,6 @@ class TestGreedy(unittest.TestCase):
     def test_k_knight(self):
         self.assertEqual(k_knight("a1"), 2)
     
-    # def test_find_prims(self):
-    #     self.assertEqual(find_prims("17"), 3)
+    def test_find_prims(self):
+        self.assertEqual(find_prime("17"), 3)
+        self.assertEqual(find_prime("011"), 2)        
