@@ -31,10 +31,10 @@ public class FindPrime {
 		}
 	}
 
-	public int solution(String nums) {
+	public int solution(String numbers) {
 		Set<Integer> primes = new HashSet<>();
-		int[] numbers = nums.chars().map(c -> c - '0').toArray();
-		getPrimes(0, numbers, new boolean[numbers.length], primes);
+		int[] permutation = numbers.chars().map(c -> c - '0').toArray();
+		getPrimes(0, permutation, new boolean[permutation.length], primes);
 		return primes.size();
 	}
 }
