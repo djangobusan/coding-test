@@ -29,4 +29,21 @@ class TestProgrammers {
 		assertArrayEquals(travelRoute2.solution(input2), output2);
 	}
 
+	@Test
+	void testWordConversion() {
+		WordConversion wordConversion = new WordConversion();
+		String[] input1 = new String[] { "hot", "dot", "dog", "lot", "log", "cog" };
+		String[] input2 = new String[] { "hot", "dot", "dog", "lot", "log" };
+
+		assertEquals(wordConversion.solution("hit", "cog", input1), 4);
+		assertEquals(wordConversion.solution("hit", "cog", input2), 0);
+	}
+
+	@Test
+	void testFurthestNode() {
+		FurthestNode furthestNode = new FurthestNode();
+		assertEquals(furthestNode.solution(6,
+				new int[][] { { 3, 6 }, { 4, 3 }, { 3, 2 }, { 1, 3 }, { 1, 2 }, { 2, 4 }, { 5, 2 } }), 3);
+	}
+
 }

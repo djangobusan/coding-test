@@ -20,21 +20,11 @@ $ (venv) python -m unittest
 
 ## 교재 관련
 
-### 초급 단계에서 풀지 않는 문제
-
-- p118, 게임 개발
-  - 파이썬에 좀 더 익수해지면 풀어 볼 것
-
-### 남겨둔 문제
-
-- p96, p99
-  - 2차 배열 문제
-
 ## 내용 및 추가 문제(프로그래머스 기반)
 
 - 그리디(greedy)
 
-  - https://school.programmers.co.kr/learn/courses/30/lessons/42839
+  - ~~https://school.programmers.co.kr/learn/courses/30/lessons/42839~~
   - https://school.programmers.co.kr/learn/courses/30/lessons/64064
   - https://school.programmers.co.kr/learn/courses/30/lessons/67257
 
@@ -46,14 +36,14 @@ $ (venv) python -m unittest
 
 - DFS/BFS(dfs_bfs)
 
-  - https://school.programmers.co.kr/learn/courses/30/lessons/43164
+  - ~~https://school.programmers.co.kr/learn/courses/30/lessons/43164~~
   - https://school.programmers.co.kr/learn/courses/30/lessons/43162
-  - https://school.programmers.co.kr/learn/courses/30/lessons/43163
+  - ~~https://school.programmers.co.kr/learn/courses/30/lessons/43163~~
   - https://school.programmers.co.kr/learn/courses/30/lessons/1844
 
 - 최단 경로(shortest_path)
 
-  - https://school.programmers.co.kr/learn/courses/30/lessons/49189
+  - ~~https://school.programmers.co.kr/learn/courses/30/lessons/49189~~
 
 - 그래프 이론(graph_theory)
   - https://school.programmers.co.kr/learn/courses/30/lessons/49191
