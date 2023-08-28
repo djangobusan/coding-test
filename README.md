@@ -63,3 +63,4 @@ $ (venv) python -m unittest
 
 - [이것이 취업을 위한 코딩 테스트다 with 파이썬](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=247882118)
 - [Do it! 자료구조와 함께 배우는 알고리즘 입문 : 자바 편](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=294229806)
+- [점프 투 파이썬 - 라이브러리 예제 편](https://wikidocs.net/book/5445)
