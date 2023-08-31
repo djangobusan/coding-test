@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/49189
+
 from collections import deque
 
 
@@ -13,8 +15,6 @@ def furthest_node(n, edge):
 
     queue.append(1)
     route[1] = 1
-
-    # 계산
 
     while queue:
         now = queue.popleft()

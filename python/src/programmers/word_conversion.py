@@ -1,3 +1,5 @@
+# https://school.programmers.co.kr/learn/courses/30/lessons/43163
+
 from collections import deque
 
 def word_conversion(begin, target, words):
@@ -5,7 +7,6 @@ def word_conversion(begin, target, words):
     queue.append([begin, 0])
     visitied = [0] * len(words)
 
-    # 계산
     while queue:
         word, cnt = queue.popleft()
         if word == target: return cnt
