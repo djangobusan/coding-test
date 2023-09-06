@@ -1,7 +1,8 @@
 import heapq
 
-def telegram(n,m,s,l):
-    INF = int(1e9)    
+
+def telegram(n, m, s, l):
+    INF = int(1e9)
     graph = [[] for i in range(n + 1)]
     distance = [INF] * (n + 1)
 

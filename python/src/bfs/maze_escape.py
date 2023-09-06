@@ -4,10 +4,11 @@ from collections import deque
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
+
 def maze_escape(x, y, graph):
     n = len(graph)
     m = len(graph[0])
-    
+
     queue = deque()
     queue.append((x, y))
     while queue:

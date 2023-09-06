@@ -1,6 +1,6 @@
 def law_of_large_numbers(p1, p2):
     _, m, k = p1
-    
+
     p2.sort()
     first = p2[-1]
     second = p2[-2]
@@ -13,7 +13,7 @@ def law_of_large_numbers(p1, p2):
             result = result + first
             m = m - 1
         if m == 0:
-            break            
+            break
         result = result + second
         m = m - 1
 

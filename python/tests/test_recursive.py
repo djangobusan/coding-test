@@ -3,8 +3,8 @@ from src.recursive.fibonacci import fibonacci, tail_fibonacci, memoization_fibon
 from src.recursive.maximum import maximum, tail_maximum
 from src.recursive.take import take, tail_take
 
-class TestRecursive(unittest.TestCase):
 
+class TestRecursive(unittest.TestCase):
     def test_fibonacci(self):
         self.assertEqual(fibonacci(10), 55)
         self.assertEqual(tail_fibonacci(10), 55)
@@ -17,4 +17,3 @@ class TestRecursive(unittest.TestCase):
     def test_take(self):
         self.assertEqual(take(3, [1, 2, 3, 4, 5]), [1, 2, 3])
         self.assertEqual(tail_take(3, [1, 2, 3, 4, 5]), [1, 2, 3])
-        

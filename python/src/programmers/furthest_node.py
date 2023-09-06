@@ -5,8 +5,8 @@ from collections import deque
 
 def furthest_node(n, edge):
     result = 0
-    route = [0] * (n+1)
-    graph = [[] for _ in range(n+1)]
+    route = [0] * (n + 1)
+    graph = [[] for _ in range(n + 1)]
     queue = deque()
 
     for e in edge:
@@ -22,7 +22,7 @@ def furthest_node(n, edge):
             if route[g] == 0:
                 queue.append(g)
                 route[g] = route[now] + 1
-    
+
     max_edge = max(route)
 
     for r in route:

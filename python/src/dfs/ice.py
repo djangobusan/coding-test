@@ -2,6 +2,7 @@ n = 0
 m = 0
 graph = []
 
+
 def dfs(x, y):
     if x <= -1 or x >= n or y <= -1 or y >= m:
         return False
@@ -13,6 +14,7 @@ def dfs(x, y):
         dfs(x, y + 1)
         return True
     return False
+
 
 def ice(adj_matrix):
     global n, m, graph
