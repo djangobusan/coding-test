@@ -68,4 +68,15 @@ class TestProgrammers {
 				new int[] { 1, 4, 5 });
 	}
 
+	@Test
+	void testMatrixOperations() {
+		MatrixOperations matrixOperations = new MatrixOperations();
+		assertArrayEquals(matrixOperations.solution(new int[][] { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } },
+				new String[] { "Rotate", "ShiftRow" }), new int[][] { { 8, 9, 6 }, { 4, 1, 2 }, { 7, 5, 3 } });
+		assertArrayEquals(
+				matrixOperations.solution(new int[][] { { 8, 6, 3 }, { 3, 3, 7 }, { 8, 4, 9 } },
+						new String[] { "Rotate", "ShiftRow", "ShiftRow" }),
+				new int[][] { { 8, 3, 3 }, { 4, 9, 7 }, { 3, 8, 6 } });
+	}
+
 }
